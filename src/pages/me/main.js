@@ -1,11 +1,9 @@
 import Vue from 'vue'
-import App from './me'
+import Me from './me'
 
-Vue.config.errorHandler = function (err) {
-  if (console && console.error) {
-    console.error(err)
-  }
-}
 
-const app = new Vue(App)
+
+const app = new Vue(Me)
 app.$mount()
+
+

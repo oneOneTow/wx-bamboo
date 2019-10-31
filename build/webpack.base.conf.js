@@ -93,7 +93,10 @@ let baseWebpackConfig = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[ext]')
         }
-      }
+      },
+      {
+        test: /\.SCSS$/,
+        loaders: ['style','css','sass']      }
     ]
   },
   plugins: [

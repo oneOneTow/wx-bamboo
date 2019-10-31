@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/other/main",
         "pages/index/main",
         "pages/me/main"
     ],
@@ -7,7 +8,7 @@
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#bfbfbf",
         "navigationBarTitleText": "BAMBOO",
-        "navigationBarTextStyle": "light"
+        "navigationBarTextStyle": "black"
     },
     "tabBar": {
         "color": "#999",
@@ -17,7 +18,7 @@
         "list": [
             {
                 "text": "其他",
-                "pagePath": "pages/me/main",
+                "pagePath": "pages/other/main",
                 "iconPath": "static/tabs/apps.png",
                 "selectedIconPath": "static/tabs/apps-active.png"
             },
@@ -32,26 +33,6 @@
                 "pagePath": "pages/me/main",
                 "iconPath": "static/tabs/me.png",
                 "selectedIconPath": "static/tabs/me-active.png"
-            }
-        ],
-        "items": [
-            {
-                "name": "其他",
-                "pagePath": "pages/me/main",
-                "icon": "static/tabs/apps.png",
-                "activeIcon": "static/tabs/apps-active.png"
-            },
-            {
-                "name": "下单",
-                "pagePath": "pages/index/main",
-                "icon": "static/tabs/place.png",
-                "activeIcon": "static/tabs/place-active.png"
-            },
-            {
-                "name": "我的",
-                "pagePath": "pages/me/main",
-                "icon": "static/tabs/me.png",
-                "activeIcon": "static/tabs/me-active.png"
             }
         ],
         "position": "bottom"

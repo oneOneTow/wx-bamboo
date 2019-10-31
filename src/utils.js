@@ -1,4 +1,4 @@
-export function showModel(title, content) {
+export default function showModel(title, content) {
   wx.showModal({
     title,
     content,

@@ -1,7 +1,9 @@
-const host = 'http://bamboo.com'
+const host = "http://127.0.0.1:8082"
+const appid = 'wxf0381110a00edb52' 
 
 const config = {
-    host
+    host,
+    appid
 }
 
 export default config
